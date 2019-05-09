@@ -108,7 +108,7 @@ export default class Register extends Vue {
             this.password = ''
         }
     }
-    private returnLogins(){
+    private returnLogins() {
         this.$router.push('/login')
     }
 }
